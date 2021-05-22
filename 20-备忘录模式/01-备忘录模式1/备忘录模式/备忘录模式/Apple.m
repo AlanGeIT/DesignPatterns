@@ -1,0 +1,27 @@
+//
+//  Apple.m
+//  备忘录模式
+//
+//  Created by Alan Ge on 2020/10/8.
+//
+
+#import "Apple.h"
+
+@implementation Apple
+
+// 获取状态
+- (id)currentState {
+    
+    return @{ @"name":self.name,
+              @"age" : self.age
+              };
+}
+
+// 恢复状态
+- (void)recoverFromState:(id)state {
+    NSDictionary *data = state;
+    self.name = data[@"name"];
+    self.age = data[@"age"];
+}
+
+@end

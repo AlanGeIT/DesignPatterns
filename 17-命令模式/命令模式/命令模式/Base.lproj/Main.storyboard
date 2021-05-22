@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kqE-81-ToW">
+                                <rect key="frame" x="0.0" y="127" width="138" height="30"/>
+                                <state key="normal" title="降低亮度"/>
+                                <connections>
+                                    <action selector="BtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D0E-ac-1sr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="30" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gA9-dU-nda">
+                                <rect key="frame" x="276" y="127" width="138" height="30"/>
+                                <state key="normal" title="回退一步"/>
+                                <connections>
+                                    <action selector="BtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dQU-3o-vt2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="20" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TnQ-A6-8cH">
+                                <rect key="frame" x="138" y="127" width="138" height="30"/>
+                                <state key="normal" title="增加亮度"/>
+                                <connections>
+                                    <action selector="BtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sS6-my-l5L"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="gA9-dU-nda" firstAttribute="height" secondItem="kqE-81-ToW" secondAttribute="height" id="Af9-8G-BGa"/>
+                            <constraint firstItem="gA9-dU-nda" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="EHu-QX-RVi"/>
+                            <constraint firstItem="kqE-81-ToW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="HhK-Uw-4Aq"/>
+                            <constraint firstItem="TnQ-A6-8cH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="83" id="Isd-R6-VJt"/>
+                            <constraint firstItem="TnQ-A6-8cH" firstAttribute="leading" secondItem="kqE-81-ToW" secondAttribute="trailing" id="KZP-oh-W13"/>
+                            <constraint firstItem="gA9-dU-nda" firstAttribute="centerY" secondItem="TnQ-A6-8cH" secondAttribute="centerY" id="TIe-Du-bdP"/>
+                            <constraint firstItem="gA9-dU-nda" firstAttribute="leading" secondItem="TnQ-A6-8cH" secondAttribute="trailing" id="YBq-dH-fsR"/>
+                            <constraint firstItem="kqE-81-ToW" firstAttribute="centerY" secondItem="TnQ-A6-8cH" secondAttribute="centerY" id="je9-UP-YIn"/>
+                            <constraint firstItem="TnQ-A6-8cH" firstAttribute="width" secondItem="kqE-81-ToW" secondAttribute="width" id="oDh-23-98X"/>
+                            <constraint firstItem="TnQ-A6-8cH" firstAttribute="height" secondItem="kqE-81-ToW" secondAttribute="height" id="owY-XV-gDX"/>
+                            <constraint firstItem="gA9-dU-nda" firstAttribute="width" secondItem="kqE-81-ToW" secondAttribute="width" id="vcj-9y-8ce"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138" y="138"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F9128182527295300823C2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9128172527295300823C2A /* AppDelegate.m */; };
+		8F91281E2527295300823C2A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F91281D2527295300823C2A /* ViewController.m */; };
+		8F9128212527295300823C2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F91281F2527295300823C2A /* Main.storyboard */; };
+		8F9128232527295500823C2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F9128222527295500823C2A /* Assets.xcassets */; };
+		8F9128262527295500823C2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F9128242527295500823C2A /* LaunchScreen.storyboard */; };
+		8F9128292527295500823C2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9128282527295500823C2A /* main.m */; };
+		8F9128332527298300823C2A /* 桥接模式.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F9128322527298300823C2A /* 桥接模式.png */; };
+		8F912838252729A400823C2A /* Remote.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F912837252729A400823C2A /* Remote.m */; };
+		8F91283D252729C200823C2A /* SubRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F91283C252729C200823C2A /* SubRemote.m */; };
+		8F912841252729E600823C2A /* TV.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F912840252729E600823C2A /* TV.m */; };
+		8F91284525272A0500823C2A /* TVXiaoMI.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F91284425272A0500823C2A /* TVXiaoMI.m */; };
+		8F91284925272A2200823C2A /* TVKJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F91284825272A2200823C2A /* TVKJ.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8F9128132527295300823C2A /* 桥接模式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "桥接模式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F9128162527295300823C2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F9128172527295300823C2A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F91281C2527295300823C2A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8F91281D2527295300823C2A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8F9128202527295300823C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F9128222527295500823C2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F9128252527295500823C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F9128272527295500823C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F9128282527295500823C2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F9128322527298300823C2A /* 桥接模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "桥接模式.png"; sourceTree = "<group>"; };
+		8F912836252729A400823C2A /* Remote.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Remote.h; sourceTree = "<group>"; };
+		8F912837252729A400823C2A /* Remote.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Remote.m; sourceTree = "<group>"; };
+		8F91283B252729C200823C2A /* SubRemote.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubRemote.h; sourceTree = "<group>"; };
+		8F91283C252729C200823C2A /* SubRemote.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubRemote.m; sourceTree = "<group>"; };
+		8F91283F252729E600823C2A /* TV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TV.h; sourceTree = "<group>"; };
+		8F912840252729E600823C2A /* TV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TV.m; sourceTree = "<group>"; };
+		8F91284325272A0500823C2A /* TVXiaoMI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVXiaoMI.h; sourceTree = "<group>"; };
+		8F91284425272A0500823C2A /* TVXiaoMI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVXiaoMI.m; sourceTree = "<group>"; };
+		8F91284725272A2200823C2A /* TVKJ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVKJ.h; sourceTree = "<group>"; };
+		8F91284825272A2200823C2A /* TVKJ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVKJ.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F9128102527295300823C2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F91280A2527295300823C2A = {
+			isa = PBXGroup;
+			children = (
+				8F9128152527295300823C2A /* 桥接模式 */,
+				8F9128142527295300823C2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F9128142527295300823C2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F9128132527295300823C2A /* 桥接模式.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F9128152527295300823C2A /* 桥接模式 */ = {
+			isa = PBXGroup;
+			children = (
+				8F9128322527298300823C2A /* 桥接模式.png */,
+				8F9128162527295300823C2A /* AppDelegate.h */,
+				8F9128172527295300823C2A /* AppDelegate.m */,
+				8F91281C2527295300823C2A /* ViewController.h */,
+				8F91281D2527295300823C2A /* ViewController.m */,
+				8F9128352527299200823C2A /* Bridge */,
+				8F91281F2527295300823C2A /* Main.storyboard */,
+				8F9128222527295500823C2A /* Assets.xcassets */,
+				8F9128242527295500823C2A /* LaunchScreen.storyboard */,
+				8F9128272527295500823C2A /* Info.plist */,
+				8F9128282527295500823C2A /* main.m */,
+			);
+			path = "桥接模式";
+			sourceTree = "<group>";
+		};
+		8F9128352527299200823C2A /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				8F91284B25272B0800823C2A /* 遥控器 */,
+				8F91284D25272B1800823C2A /* 电视机 */,
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
+		8F91284B25272B0800823C2A /* 遥控器 */ = {
+			isa = PBXGroup;
+			children = (
+				8F912836252729A400823C2A /* Remote.h */,
+				8F912837252729A400823C2A /* Remote.m */,
+				8F91283B252729C200823C2A /* SubRemote.h */,
+				8F91283C252729C200823C2A /* SubRemote.m */,
+			);
+			path = "遥控器";
+			sourceTree = "<group>";
+		};
+		8F91284D25272B1800823C2A /* 电视机 */ = {
+			isa = PBXGroup;
+			children = (
+				8F91283F252729E600823C2A /* TV.h */,
+				8F912840252729E600823C2A /* TV.m */,
+				8F91284325272A0500823C2A /* TVXiaoMI.h */,
+				8F91284425272A0500823C2A /* TVXiaoMI.m */,
+				8F91284725272A2200823C2A /* TVKJ.h */,
+				8F91284825272A2200823C2A /* TVKJ.m */,
+			);
+			path = "电视机";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F9128122527295300823C2A /* 桥接模式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F91282C2527295500823C2A /* Build configuration list for PBXNativeTarget "桥接模式" */;
+			buildPhases = (
+				8F91280F2527295300823C2A /* Sources */,
+				8F9128102527295300823C2A /* Frameworks */,
+				8F9128112527295300823C2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "桥接模式";
+			productName = "桥接模式";
+			productReference = 8F9128132527295300823C2A /* 桥接模式.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F91280B2527295300823C2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					8F9128122527295300823C2A = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 8F91280E2527295300823C2A /* Build configuration list for PBXProject "桥接模式" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F91280A2527295300823C2A;
+			productRefGroup = 8F9128142527295300823C2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F9128122527295300823C2A /* 桥接模式 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F9128112527295300823C2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F9128262527295500823C2A /* LaunchScreen.storyboard in Resources */,
+				8F9128332527298300823C2A /* 桥接模式.png in Resources */,
+				8F9128232527295500823C2A /* Assets.xcassets in Resources */,
+				8F9128212527295300823C2A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F91280F2527295300823C2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F91284925272A2200823C2A /* TVKJ.m in Sources */,
+				8F91283D252729C200823C2A /* SubRemote.m in Sources */,
+				8F912841252729E600823C2A /* TV.m in Sources */,
+				8F91281E2527295300823C2A /* ViewController.m in Sources */,
+				8F9128182527295300823C2A /* AppDelegate.m in Sources */,
+				8F91284525272A0500823C2A /* TVXiaoMI.m in Sources */,
+				8F9128292527295500823C2A /* main.m in Sources */,
+				8F912838252729A400823C2A /* Remote.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8F91281F2527295300823C2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F9128202527295300823C2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F9128242527295500823C2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F9128252527295500823C2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F91282A2527295500823C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8F91282B2527295500823C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F91282D2527295500823C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "桥接模式/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "alange.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F91282E2527295500823C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "桥接模式/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "alange.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F91280E2527295300823C2A /* Build configuration list for PBXProject "桥接模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F91282A2527295500823C2A /* Debug */,
+				8F91282B2527295500823C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F91282C2527295500823C2A /* Build configuration list for PBXNativeTarget "桥接模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F91282D2527295500823C2A /* Debug */,
+				8F91282E2527295500823C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F91280B2527295300823C2A /* Project object */;
+}
